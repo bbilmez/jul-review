@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+openai = "*"
+scikit-learn = "*"
+pandas = "*"
+flask = "*"
+groq = "*"
+requests = "*"
+psycopg2-binary = "*"
+python-dotenv = "*"
+gunicorn = "*"
+transformers = "*"
+torch = "*"
+
+[dev-packages]
+export = "*"
+
+[requires]
+python_version = "3.12"
